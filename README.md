@@ -45,4 +45,3 @@
 - https://www.jetbrains.com/help/clion/how-to-create-toolchain-in-clion.html#cmake-toolchain
 - CMake template from JetBrains : https://gist.github.com/elmot/3b4f0e9f8b23864fdf8bb509c329d051 (although I a use custom one)
 - Oldish article: https://blog.jetbrains.com/clion/2016/06/clion-for-embedded-development/ (OpenOCD and CubeMX)
-- 
