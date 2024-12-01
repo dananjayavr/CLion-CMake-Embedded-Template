@@ -1,3 +1,4 @@
 cmake-build-simulator
 cmake-build-target
+cmake-build-docker
 .idea
