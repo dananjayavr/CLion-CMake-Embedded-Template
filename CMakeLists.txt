@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.30)
+cmake_minimum_required(VERSION 3.29)
 project(embedded_gdb_clion C)
 
 # Enable CMake support for ASM and C languages
@@ -19,6 +19,10 @@ if(SIMULATOR)
     add_executable(embedded_gdb_clion
             main.c
     )
+endif ()
+
+if(DOCKER)
+    target_compile_definitions(embedded_gdb_clion PUBLIC DOCKER)
 endif ()
 
 target_include_directories(embedded_gdb_clion PRIVATE CMSIS)

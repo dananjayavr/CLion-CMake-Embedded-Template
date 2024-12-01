@@ -38,6 +38,15 @@
 
 - You should be able to compile and run (Make sure to choose the 'SIMULATOR' profile)
 
+### Docker stuff
+
+- I created a simple Dockerfile.
+- In Windows, make sure to start Docker Desktop
+- Then, I ran ``docker build -t clion/alpine:latest -f Dockerfile .`` to build the Docker image.
+- Create a new CMake profile called DOCKER
+- Within it, use the toolchain as Docker, and in the next window choose the image that we just built. 
+- Now I should be able to build the executable in "Linux" using Docker.
+
 ### Sources 
 
 - https://www.jetbrains.com/clion/features/embedded-dev.html
